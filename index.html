@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block Rush & Crush Mini Puzzle - Yasal Belgeler</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            padding: 40px;
+            overflow: hidden;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 20px;
+        }
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        .card-icon {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .card h2 {
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            border: none;
+            padding: 0;
+            color: white;
+        }
+        .card p {
+            font-size: 0.9em;
+            margin: 0;
+            opacity: 0.9;
+        }
+        .info-section {
+            background: #f0f4ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #667eea;
+        }
+        .info-section h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        .info-section p {
+            margin: 10px 0;
+            color: #333;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            text-align: center;
+            color: #999;
+            font-size: 0.9em;
+        }
+        .back-btn {
+            display: inline-block;
+            margin: 20px auto;
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1em;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .back-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎮 Block Rush & Crush Mini Puzzle</h1>
+            <p class="subtitle">Yasal Belgeler & Politikalar</p>
+        </header>
+
+        <main>
+            <p style="text-align: center; font-size: 1.1em; margin-bottom: 30px;">
+                Google Play Store'a yükleme için gerekli yasal belgeleri aşağıdan seçiniz:
+            </p>
+
+            <div class="cards">
+                <a href="privacy.html" class="card">
+                    <div class="card-icon">🔒</div>
+                    <h2>Gizlilik Politikası</h2>
+                    <p>Verilerinizin nasıl toplandığı, işlendiği ve korunduğu hakkında bilgi.</p>
+                </a>
+
+                <a href="terms.html" class="card">
+                    <div class="card-icon">📜</div>
+                    <h2>Kullanım Şartları</h2>
+                    <p>Uygulamayı kullanırken uymanız gereken kurallar ve sorumluluklar.</p>
+                </a>
+            </div>
+
+            <div class="info-section">
+                <h3>📱 Google Play Store Uyumluluğu</h3>
+                <p>✅ <strong>Gizlilik Politikası:</strong> Uygulamanız hangi verileri topladığını ve nasıl kullandığını açıklamaktadır.</p>
+                <p>✅ <strong>Kullanım Şartları:</strong> Kullanıcıların uyması gereken kuralları belirtmektedir.</p>
+                <p>✅ <strong>GDPR Uyumluluğu:</strong> Tüm veri koruması yasalarına uygun.</p>
+                <p>✅ <strong>AdMob Reklam Politikası:</strong> Reklam hizmetleri Google tarafından yönetilmektedir.</p>
+            </div>
+
+            <div class="info-section">
+                <h3>🚀 Google Play Store'a Yükleme Adımları</h3>
+                <ol style="margin-left: 20px;">
+                    <li>Google Play Developer Console'a giriş yapın</li>
+                    <li>Uygulamanızı oluşturun</li>
+                    <li>Mağaza Listeleme → Gizlilik Politikası bölümüne:</li>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Gizlilik Politikası URL: <code>https://github.com/Batuhan-Kartal/ILSpy/blob/master/privacy.html</code></li>
+                    </ul>
+                    <li>İçerik Derecelendirmesi → Sorulara Cevap Verin</li>
+                    <li>İçerik → Hedef Yaş Grubu: 12+ veya Genel Kitle</li>
+                    <li>APK yükleyin ve gönderimi tamamlayın</li>
+                </ol>
+            </div>
+
+            <div class="info-section">
+                <h3>⚠️ Önemli Uyarılar</h3>
+                <p>🔴 Google Play Store <strong>MUTLAKA</strong> Gizlilik Politikası URL'si gerektirir. Aksi takdirde uygulamanız reddedilir.</p>
+                <p>🔴 Eğer uygulamanız 13 yaş altı çocuklara hitap ediyorsa, <strong>KOPPAssustainability (Çocukların Çevrimiçi Gizlilik Yasası)</strong> uyumlu olmalıdır.</p>
+                <p>🔴 Reklam hizmetlerini kullanıyorsanız, <strong>AdMob politikasına uygun reklamlar</strong> göstermelisiniz.</p>
+            </div>
+
+            <div class="info-section">
+                <h3>📋 Gerekli Bilgiler</h3>
+                <ul style="margin-left: 20px;">
+                    <li>🎮 <strong>Uygulama Adı:</strong> Block Rush & Crush Mini Puzzle</li>
+                    <li>📊 <strong>Kategori:</strong> Oyunlar / Puzzle</li>
+                    <li>👥 <strong>Hedef Kitle:</strong> 12+ Yaş</li>
+                    <li>📍 <strong>İçerik Derecesi:</strong> PEGI 3 / 12+ (Reklam nedeniyle)</li>
+                    <li>💰 <strong>Fiyat:</strong> Ücretsiz (Reklam destekli)</li>
+                    <li>🔗 <strong>Gizlilik Politikası URL:</strong> Sayfanın en üstünde</li>
+                </ul>
+            </div>
+
+            <center>
+                <a href="privacy.html" class="back-btn">🔒 Gizlilik Politikasına Git</a>
+            </center>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Block Rush & Crush Mini Puzzle. Tüm Hakları Saklıdır.</p>
+            <p><strong>Son Güncelleme:</strong> 6 Haziran 2026</p>
+            <p>Bu belgeler Google Play Store'a yükleme için hazırlanmıştır.</p>
+        </footer>
+    </div>
+</body>
+</html>
